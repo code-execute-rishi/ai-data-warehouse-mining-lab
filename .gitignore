@@ -1,0 +1,8 @@
+bin/
+*.o
+*.dSYM
+.DS_Store
+.vscode/
+.idea/
+__pycache__/
+*.pyc

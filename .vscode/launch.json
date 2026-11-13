@@ -1,0 +1,83 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: Current File",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Python: Master Suite (All Labs)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/ai_dwm_labs_1_to_9.py",
+      "args": ["--all"],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Python: Lab 1 (Data Warehouse & OLAP)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/python/lab1_data_warehouse_olap.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Python: Lab 2 (Data Cleaning)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/python/lab2_data_cleaning.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Python: Lab 3 (Normalization)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/python/lab3_data_normalization.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Python: Lab 4 (Water Jug & A*)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/python/lab4_water_jug_astar.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Python: Lab 5 (PCA Dimensionality Reduction)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/python/lab5_pca_dimensionality_reduction.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Python: Lab 6 (Minimax & Alpha-Beta)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/python/lab6_minimax_alpha_beta.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Python: Lab 7 (Linear Regression)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/python/lab7_linear_regression.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Python: Lab 8 (Logistic Regression)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/python/lab8_logistic_regression.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Python: Lab 9 (8-Puzzle & Sudoku CSP)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/python/lab9_hill_climbing_sudoku_csp.py",
+      "console": "integratedTerminal"
+    }
+  ]
+}

@@ -2,7 +2,9 @@ bin/
 *.o
 *.dSYM
 .DS_Store
-.vscode/
 .idea/
+.vscode/*
+!.vscode/launch.json
+!.vscode/settings.json
 __pycache__/
 *.pyc

@@ -236,14 +236,38 @@ python3 python/lab5_pca_dimensionality_reduction.py
 
 ---
 
+### 3. Running in Python IDEs (PyCharm & VS Code)
+
+Detailed visual walk-throughs and shortcut guides are documented in [`IDE_GUIDE.md`](IDE_GUIDE.md).
+
+#### In JetBrains PyCharm Community Edition:
+```bash
+# Launch PyCharm directly from project folder
+pycharm-ce .
+```
+* **Run Any Lab:** Expand `python/`, right-click any experiment (e.g. `lab5_pca_dimensionality_reduction.py`), and click **Run** (`Ctrl+Shift+R`).
+* **Run Master Suite:** Right-click `ai_dwm_labs_1_to_9.py` and choose **Run**.
+
+#### In Visual Studio Code:
+```bash
+# Open in VS Code
+code .
+```
+* **Pre-configured Debug Profiles:** Open **Run & Debug** (`Cmd+Shift+D`), select any lab from the dropdown (e.g. `Python: Lab 5 (PCA Dimensionality Reduction)`), and press `F5`.
+* **Direct Editor Execution:** Open any file in `python/` and click the **Play (▶)** button in the top right.
+
+---
+
 ## 📂 Repository File Structure
 
 ```
 ai-data-warehouse-mining-lab/
 ├── Makefile                                     # Automated build system (all, run, lab1..lab9, py-all, py-lab1..py-lab9)
 ├── README.md                                    # Comprehensive documentation, theory guide & instructions
+├── IDE_GUIDE.md                                 # Complete PyCharm & VS Code execution guide
 ├── LICENSE                                      # MIT Open Source License
 ├── .gitignore                                   # Git ignore rules (bin, objects, pycache, debug symbols)
+├── .vscode/                                     # Pre-configured VS Code profiles (launch.json, settings.json)
 ├── ai_dwm_labs_1_to_9.cpp                       # Master all-in-one C++17 implementation (Labs 1-9)
 ├── ai_dwm_labs_1_to_9.py                        # Master all-in-one Python 3 implementation (Labs 1-9)
 ├── src/                                         # Modular standalone C++ source files
